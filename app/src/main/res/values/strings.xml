@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HSDCS</string>
+    <string name="header">Online System</string>
+    <string name="forgot">Forgot Passwrod?</string>
+    <string name="Balance">মোট টাকা</string>
+    <string name="YearProfit">বর্তমান লাভ</string>
+    <string name="Due">মোট বাকী</string>
+    <string name="TotalProfit">মোট লাভ</string>
+    <string name="Report">মোট বাকী</string>
+    <string name="lon">আবেদন</string>
+    <string name="Org">হোগলী ছাত্র উন্নয়ন সমবায় সমিতি</string>
+    <string name="name">আপনার নাম লিখুন</string>
+    <string name="takar_proriman">আপনার কত টাকা প্রয়োজন</string>
+    <string name="Somoy">কত দিনের জন্য প্রয়োজন</string>
+    <string name="somossa">আপনার সমস্যা উল্লেখ করুন</string>
+    <string name="Loan_app_toolbae">Loan Application Pending</string>
+    <string name="Admin_panel_toolbar">Admin Panel</string>
+</resources>

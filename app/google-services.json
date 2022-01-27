@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "7265066506",
+    "firebase_url": "https://hsdcs-c6c10.firebaseio.com",
+    "project_id": "hsdcs-c6c10",
+    "storage_bucket": "hsdcs-c6c10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7265066506:android:7ee6d802ed992890af09f3",
+        "android_client_info": {
+          "package_name": "com.example.ibbl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7265066506-hal99nua0gn91kpo00ubbv1nkll4s3j8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlYc7M_v4M-7WpZsX1KuJGnpEaYjMENjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7265066506-hal99nua0gn91kpo00ubbv1nkll4s3j8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

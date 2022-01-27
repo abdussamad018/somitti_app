@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".Activity.MemberAdd">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/header"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/forest_Green"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:background="@drawable/headerstyle_bac2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="10dp"
+        android:paddingLeft="15dp"
+        >
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/user"
+            android:layout_marginTop="14dp" />
+
+
+        <EditText
+            android:id="@+id/AddtxtUser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:inputType="textEmailAddress"
+            android:hint="UserName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/headerstyle_bac2"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingRight="10dp"
+        android:paddingLeft="15dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/password"
+            android:layout_marginTop="20dp" />
+
+
+        <EditText
+            android:id="@+id/addtxtPass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:inputType="numberPassword"
+            android:hint="Password" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@drawable/headerstyle_bac2"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="26dp"
+        android:layout_height="wrap_content">
+
+
+
+        <EditText
+            android:id="@+id/addtxtName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:inputType="text"
+            android:hint="Name" />
+
+
+        <EditText
+            android:id="@+id/txtTotalTKId"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+            android:hint="Total TK" />
+
+        <EditText
+            android:id="@+id/txtTotalDueId"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+            android:hint="Total  Due TK" />
+
+        <EditText
+            android:id="@+id/addProfitID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+            android:hint="Profit TK" />
+        <EditText
+            android:id="@+id/TotalProfitID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+            android:hint=" Total Profit TK" />
+
+        <EditText
+            android:id="@+id/DepositeID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+            android:hint="Deposite TK" />
+
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/Green"
+            android:clickable="true"
+            android:text="Add Member"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:longClickable="true"
+            android:textAllCaps="false" />
+
+
+
+    </LinearLayout>
+
+<ProgressBar
+    android:visibility="gone"
+    android:id="@+id/MemberProgressId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
